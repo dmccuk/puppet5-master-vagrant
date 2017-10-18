@@ -1,7 +1,6 @@
 # vi: set ft=ruby :
 
 # Builds a Puppet Master using JSON config file
-# Author: Gary A. Stafford
 
 # read vm configurations from JSON files
 nodes_config = (JSON.parse(File.read("nodes.json")))['nodes']
